@@ -1,0 +1,10 @@
+langchain
+langgraph
+boto3
+python-dotenv
+requests
+langchain-community
+langchain-aws
+chromadb
+streamlit
+dotenv
