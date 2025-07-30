@@ -1,0 +1,19 @@
+service_name,timestamp,latency_ms,throughput_rpm,error_rate_percent
+Calculation Service,23-07-2025 15:27,310.12,890,1.42
+Calculation Service,23-07-2025 15:32,120.45,2300,0.12
+Calculation Service,23-07-2025 15:37,95.23,1500,0
+Calculation Service,23-07-2025 15:42,310.12,890,1.42
+Calculation Service,23-07-2025 15:47,210.76,1700,0.56
+Calculation Service,23-07-2025 15:52,87.32,3200,0.05
+Email Service,23-07-2025 15:27,132.88,2100,0.1
+Email Service,23-07-2025 15:32,98.43,3050,0.02
+Email Service,23-07-2025 15:37,412.01,720,1.95
+Email Service,23-07-2025 15:42,256.78,1500,0.75
+Email Service,23-07-2025 15:47,67.89,3400,0.01
+Email Service,23-07-2025 15:52,182.34,2650,0.2
+FileTransfer Service,23-07-2025 15:27,309.56,990,1.2
+FileTransfer Service,23-07-2025 15:32,111.47,1850,0.08
+FileTransfer Service,23-07-2025 15:37,521.92,410,3.87
+FileTransfer Service,23-07-2025 15:42,243.67,1370,0.66
+FileTransfer Service,23-07-2025 15:47,95.62,3250,0.03
+FileTransfer Service,23-07-2025 15:52,106.44,2900,0.04
