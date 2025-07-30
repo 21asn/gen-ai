@@ -1,0 +1,9 @@
+timestamp,service_name,query,cpu_usage,io_wait,blocking_sessions
+22-07-2024 08:00,Calculation Service,SELECT * FROM users WHERE status='active';,82.5,18.4,1
+22-07-2024 08:30,Calculation Service,UPDATE orders SET status='processed' WHERE created_at < NOW() - INTERVAL '1 day';,91.2,24.3,2
+22-07-2024 09:00,Calculation Service,SELECT COUNT(*) FROM transactions WHERE amount > 1000;,88.7,22,3
+22-07-2024 09:30,Calculation Service,DELETE FROM sessions WHERE expired=true;,95.6,26.7,4
+22-07-2024 10:00,Email Service,SELECT * FROM logs WHERE error_code IS NOT NULL;,86.1,19.9,2
+22-07-2024 10:30,Email Service,SELECT * FROM metrics WHERE service='api';,77.4,16.1,1
+22-07-2024 11:00,FileTransfer Service,"INSERT INTO audit_log (event, user_id) VALUES ('login', 102);",83.3,20.5,0
+22-07-2024 11:30,FileTransfer Service,SELECT * FROM api_requests WHERE status='fail';,89.9,23.1,2
