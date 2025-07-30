@@ -1,0 +1,11 @@
+db_user,role,has_admin_access,password_expiry_days,idle_timeout,allowed_hosts
+app_user,read-only,False,90,600,10.0.0.0/8
+dba_user,admin,True,,0,%
+readonly_user,read-only,False,120,300,192.168.1.0/24
+analytics,reporting,True,365,100,%
+internal_api,read-only,False,30,900,10.1.0.0/16
+dev_admin,developer,True,180,60,%
+qa_user,qa,False,90,180,172.16.0.0/12
+support_user,support,True,200,150,%
+integration_bot,automation,False,60,720,10.2.2.0/24
+batch_processor,system,False,90,300,localhost
